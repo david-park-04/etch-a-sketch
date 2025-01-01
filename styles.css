@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: lightgray;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 36px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+}
+
+.container .parent-div {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.container .child-div {
+    display: flex;
+    flex: 1 1 0;
+}
